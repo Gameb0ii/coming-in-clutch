@@ -3,7 +3,7 @@
 This is an example Play application in Scala, using the yahoo finance API to display a series of stock tickers.
 
 
-#run :play_or_pause_button:	
+# run :play_or_pause_button:	
 
 Run this project from the sbt shell using the ```run``` command.
 
