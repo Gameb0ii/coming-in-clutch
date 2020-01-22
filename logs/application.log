@@ -1,0 +1,209 @@
+2020-01-22 10:52:50,735 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2020-01-22 10:52:50,736 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2020-01-22 10:52:50,739 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - Default Loggers started
+2020-01-22 10:52:50,745 [DEBUG] from akka.serialization.Serialization(akka://application) in application-akka.actor.default-dispatcher-4 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-22 10:52:50,747 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-22 10:52:50,748 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-22 10:52:50,750 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-22 10:52:50,751 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-22 10:52:50,751 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-22 10:52:50,751 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-22 10:52:50,751 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-22 10:52:50,752 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-22 10:52:50,752 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-22 10:52:51,140 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-4 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2020-01-22 10:52:51,160 [WARN] from play.filters.headers.SecurityHeadersConfig in play-dev-mode-akka.actor.default-dispatcher-4 - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2020-01-22 10:52:51,164 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-01-22 10:52:51,169 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+2020-01-22 10:52:51,434 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-4 - New connection accepted
+2020-01-22 10:52:51,439 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-4 - New connection accepted
+2020-01-22 10:52:51,449 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-4 - New connection accepted
+2020-01-22 10:52:51,455 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-11 - New connection accepted
+2020-01-22 10:52:51,619 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-10 - New connection accepted
+2020-01-22 10:52:51,654 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-7 - originCheck: originValue = http://localhost:9000
+2020-01-22 10:52:51,663 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-9 - actor [akka://application/user/userParentActor] received message: Create(8,Actor[akka://application/temp/$a#0])
+2020-01-22 10:52:51,668 [INFO] from actors.UserParentActor$ in application-akka.actor.default-dispatcher-9 - Creating user actor userActor-8 with default stocks List(IBM, GOOG, AMZN, DOW)
+2020-01-22 10:52:51,673 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-7 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-22 10:52:51,698 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-7 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(IBM, GOOG, AMZN, DOW),Actor[akka://application/temp/$b#0])
+2020-01-22 10:52:51,711 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(IBM)
+2020-01-22 10:52:51,733 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(GOOG)
+2020-01-22 10:52:51,735 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(AMZN)
+2020-01-22 10:52:51,737 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(DOW)
+2020-01-22 10:52:53,415 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-10 - getting stock price AMZN
+2020-01-22 10:52:53,421 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:53,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:53,710 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AMZN
+2020-01-22 10:52:53,710 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-10 - getTweets: symbol = AMZN
+2020-01-22 10:52:54,001 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - attributes requested for stock: AMZN
+2020-01-22 10:52:54,001 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,025 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,049 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AMZN
+2020-01-22 10:52:54,050 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,072 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,093 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AMZN
+2020-01-22 10:52:54,093 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,116 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:52:54,137 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AMZN
+2020-01-22 10:52:54,139 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - response = {"stockObj":{"name":"AMZN","price":"1890.34","change":"neg"},"label":"neg"}
+2020-01-22 10:52:55,777 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-4 - getting stock price GOOG
+2020-01-22 10:52:55,777 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,813 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,847 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2020-01-22 10:52:55,847 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-4 - getTweets: symbol = GOOG
+2020-01-22 10:52:55,883 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-4 - attributes requested for stock: GOOG
+2020-01-22 10:52:55,884 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,923 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,946 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2020-01-22 10:52:55,946 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,968 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:52:55,989 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2020-01-22 10:52:55,990 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-4 - response = {"stockObj":{"name":"GOOG","price":"1493.7155","change":"pos"},"label":"pos"}
+2020-01-22 10:52:58,005 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-7 - getting stock price DOW
+2020-01-22 10:52:58,006 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,052 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,073 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: DOW
+2020-01-22 10:52:58,073 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-7 - getTweets: symbol = DOW
+2020-01-22 10:52:58,152 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - attributes requested for stock: DOW
+2020-01-22 10:52:58,152 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,174 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,196 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: DOW
+2020-01-22 10:52:58,197 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,219 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,241 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: DOW
+2020-01-22 10:52:58,241 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,263 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:52:58,285 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: DOW
+2020-01-22 10:52:58,285 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - response = {"stockObj":{"name":"DOW","price":"51.277","change":"neg"},"label":"neg"}
+2020-01-22 10:53:00,023 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-6 - getting stock price IBM
+2020-01-22 10:53:00,024 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,098 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,119 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: IBM
+2020-01-22 10:53:00,120 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-6 - getTweets: symbol = IBM
+2020-01-22 10:53:00,162 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - attributes requested for stock: IBM
+2020-01-22 10:53:00,162 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,184 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,206 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: IBM
+2020-01-22 10:53:00,206 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,228 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=IBM
+2020-01-22 10:53:00,250 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: IBM
+2020-01-22 10:53:00,250 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-5 - response = {"stockObj":{"name":"IBM","price":"144.65","change":"pos"},"label":"pos"}
+2020-01-22 10:53:06,837 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-11 - New connection accepted
+2020-01-22 10:53:06,875 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-12 - New connection accepted
+2020-01-22 10:53:06,878 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-12 - New connection accepted
+2020-01-22 10:53:06,881 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-7 - New connection accepted
+2020-01-22 10:53:06,884 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2020-01-22 10:53:07,524 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2020-01-22 10:53:07,530 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-8 - originCheck: originValue = http://localhost:9000
+2020-01-22 10:53:07,530 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/userParentActor] received message: Create(21,Actor[akka://application/temp/$c#0])
+2020-01-22 10:53:07,530 [INFO] from actors.UserParentActor$ in application-akka.actor.default-dispatcher-6 - Creating user actor userActor-21 with default stocks List(IBM, GOOG, AMZN, DOW)
+2020-01-22 10:53:07,532 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(IBM, GOOG, AMZN, DOW),Actor[akka://application/temp/$d#0])
+2020-01-22 10:53:07,532 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(IBM)
+2020-01-22 10:53:07,533 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(GOOG)
+2020-01-22 10:53:07,534 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(AMZN)
+2020-01-22 10:53:07,536 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(DOW)
+2020-01-22 10:53:09,969 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-10 - getting stock price DOW
+2020-01-22 10:53:09,969 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,149 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,186 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: DOW
+2020-01-22 10:53:10,186 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-10 - getTweets: symbol = DOW
+2020-01-22 10:53:10,217 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-6 - attributes requested for stock: DOW
+2020-01-22 10:53:10,217 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,260 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,284 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: DOW
+2020-01-22 10:53:10,284 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,307 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,328 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: DOW
+2020-01-22 10:53:10,328 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,352 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 10:53:10,376 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: DOW
+2020-01-22 10:53:10,376 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-6 - response = {"stockObj":{"name":"DOW","price":"51.3","change":"neg"},"label":"neg"}
+2020-01-22 10:53:15,240 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-8 - getting stock price AMZN
+2020-01-22 10:53:15,240 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,329 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,351 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: AMZN
+2020-01-22 10:53:15,351 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-8 - getTweets: symbol = AMZN
+2020-01-22 10:53:15,381 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-4 - attributes requested for stock: AMZN
+2020-01-22 10:53:15,381 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,404 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,425 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AMZN
+2020-01-22 10:53:15,425 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,446 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,471 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AMZN
+2020-01-22 10:53:15,471 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,496 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AMZN
+2020-01-22 10:53:15,518 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AMZN
+2020-01-22 10:53:15,518 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-4 - response = {"stockObj":{"name":"AMZN","price":"1890.66","change":"neg"},"label":"neg"}
+2020-01-22 10:53:17,693 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-11 - getting stock price GOOG
+2020-01-22 10:53:17,693 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:17,735 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:17,777 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2020-01-22 10:53:17,777 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-11 - getTweets: symbol = GOOG
+2020-01-22 10:53:47,869 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-6 - attributes requested for stock: GOOG
+2020-01-22 10:53:47,869 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:48,016 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:48,052 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2020-01-22 10:53:48,053 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:48,089 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2020-01-22 10:53:48,110 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2020-01-22 10:53:48,110 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-6 - response = {"stockObj":{"name":"GOOG","price":"1493.69","change":"pos"},"label":"pos"}
+2020-01-22 10:53:53,742 [DEBUG] from akka.http.impl.util.StreamUtils$DelayCancellationStage$$anon$11 in play-dev-mode-akka.actor.default-dispatcher-7 - Delaying cancellation for 1 minute
+2020-01-22 10:53:53,744 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-4 - Stopping actor Actor[akka://application/user/userParentActor/userActor-21#1859180982]
+2020-01-22 10:54:06,828 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-9 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52374 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 10:54:06,917 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52382 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 10:54:06,917 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52380 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 10:54:06,936 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-7 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52386 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 10:54:16,107 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52384 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:52:02,184 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-11 - New connection accepted
+2020-01-22 14:52:02,230 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2020-01-22 14:52:02,234 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2020-01-22 14:52:02,240 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-7 - New connection accepted
+2020-01-22 14:52:02,304 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2020-01-22 14:52:02,351 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-11 - New connection accepted
+2020-01-22 14:52:02,356 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-11 - originCheck: originValue = http://localhost:9000
+2020-01-22 14:52:02,356 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/userParentActor] received message: Create(33,Actor[akka://application/temp/$e#0])
+2020-01-22 14:52:02,357 [INFO] from actors.UserParentActor$ in application-akka.actor.default-dispatcher-6 - Creating user actor userActor-33 with default stocks List(IBM, GOOG, AMZN, DOW)
+2020-01-22 14:52:02,358 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(IBM, GOOG, AMZN, DOW),Actor[akka://application/temp/$f#0])
+2020-01-22 14:52:02,358 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(IBM)
+2020-01-22 14:52:02,361 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(GOOG)
+2020-01-22 14:52:02,362 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(AMZN)
+2020-01-22 14:52:02,363 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(DOW)
+2020-01-22 14:52:03,781 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-4 - getting stock price DOW
+2020-01-22 14:52:03,781 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:03,935 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:03,956 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: DOW
+2020-01-22 14:52:03,957 [INFO] from controllers.StockSentiment in application-akka.actor.default-dispatcher-4 - getTweets: symbol = DOW
+2020-01-22 14:52:15,256 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-11 - attributes requested for stock: DOW
+2020-01-22 14:52:15,257 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,334 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,370 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: DOW
+2020-01-22 14:52:15,370 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,406 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,428 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: DOW
+2020-01-22 14:52:15,428 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,449 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DOW
+2020-01-22 14:52:15,471 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: DOW
+2020-01-22 14:52:15,471 [INFO] from actors.YahooFinanceActor in application-akka.actor.default-dispatcher-11 - response = {"stockObj":{"name":"DOW","price":"51.04","change":"neg"},"label":"neg"}
+2020-01-22 14:53:17,659 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-10 - Aborting tcp connection to /0:0:0:0:0:0:0:1:57354 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:53:17,708 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:57356 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:53:17,708 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:57358 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:53:17,779 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-9 - Aborting tcp connection to /0:0:0:0:0:0:0:1:57360 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:53:31,038 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-9 - Aborting tcp connection to /0:0:0:0:0:0:0:1:57362 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-22 14:55:51,553 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-10 - Stopping actor Actor[akka://application/user/userParentActor/userActor-33#-1728363774]
+2020-01-22 14:55:51,553 [DEBUG] from akka.http.impl.util.StreamUtils$DelayCancellationStage$$anon$11 in play-dev-mode-akka.actor.default-dispatcher-11 - Delaying cancellation for 1 minute

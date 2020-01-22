@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/lance/git/samplePlay/conf/logback.xml,/home/lance/git/samplePlay/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/lance/git/samplePlay/conf/application.conf,/home/lance/git/samplePlay/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/lance/git/samplePlay/conf/routes,/home/lance/git/samplePlay/target/scala-2.13/classes/routes)[0m
